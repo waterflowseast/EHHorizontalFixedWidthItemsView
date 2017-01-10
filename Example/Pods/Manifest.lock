@@ -1,0 +1,16 @@
+PODS:
+  - EHHorizontalFixedWidthItemsView (0.1.0)
+
+DEPENDENCIES:
+  - EHHorizontalFixedWidthItemsView (from `../`)
+
+EXTERNAL SOURCES:
+  EHHorizontalFixedWidthItemsView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EHHorizontalFixedWidthItemsView: b0ac7e16cf8ef333b40e790b90d9e26365e3f050
+
+PODFILE CHECKSUM: ba411cf6da22592632fcb042971fb4354de601a9
+
+COCOAPODS: 1.0.0

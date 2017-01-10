@@ -1,0 +1,22 @@
+{
+  "name": "EHHorizontalFixedWidthItemsView",
+  "version": "0.1.0",
+  "summary": "A short description of EHHorizontalFixedWidthItemsView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/EHHorizontalFixedWidthItemsView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Eric Huang": "WaterFlowsEast@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/EHHorizontalFixedWidthItemsView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EHHorizontalFixedWidthItemsView/Classes/**/*"
+}
