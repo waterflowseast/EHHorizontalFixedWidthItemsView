@@ -7,12 +7,18 @@
 //
 
 #import "EHAppDelegate.h"
+#import "EHViewController.h"
 
 @implementation EHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:[[EHViewController alloc] init]];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = navController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
