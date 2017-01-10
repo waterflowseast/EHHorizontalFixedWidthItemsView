@@ -1,9 +1,15 @@
 {
   "name": "EHHorizontalFixedWidthItemsView",
-  "version": "0.1.0",
-  "summary": "A short description of EHHorizontalFixedWidthItemsView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/EHHorizontalFixedWidthItemsView",
+  "version": "1.0.0",
+  "summary": "a view which arranges same-size item views one by one horizontally.",
+  "description": "EHHorizontalFixedWidthItemsView: a view which arranges same-size item views one by one horizontally.\nEHHorizontalFixedWidthItemsSeparatorView: EHHorizontalFixedWidthItemsView + separator lines.\nEHHorizontalFixedWidthItemsSelectionView: selection version of EHHorizontalFixedWidthItemsView, you can single-select or multiple-select.\nEHFixedWidthItemsSequentialSelectionView: sequentail selection version of EHHorizontalFixedWidthItemsView.\nEHRateView: image version of EHFixedWidthItemsSequentialSelectionView.\nEHFixedWidthItemsSingleAnimatedSelectionView: a view which arranges same-size item views one by one horizontally, when you select one item, it automatically unselect the previous selected one with animation.\nEHFixedWidthItemsSingleAnimatedSelectionSeparatorView: EHFixedWidthItemsSingleAnimatedSelectionView + separator lines.",
+  "homepage": "https://github.com/waterflowseast/EHHorizontalFixedWidthItemsView",
+  "screenshots": [
+    "https://github.com/waterflowseast/EHHorizontalFixedWidthItemsView/raw/master/screenshots/1.png",
+    "https://github.com/waterflowseast/EHHorizontalFixedWidthItemsView/raw/master/screenshots/2.png",
+    "https://github.com/waterflowseast/EHHorizontalFixedWidthItemsView/raw/master/screenshots/3.png",
+    "https://github.com/waterflowseast/EHHorizontalFixedWidthItemsView/raw/master/screenshots/4.png"
+  ],
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +18,16 @@
     "Eric Huang": "WaterFlowsEast@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/EHHorizontalFixedWidthItemsView.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/waterflowseast/EHHorizontalFixedWidthItemsView.git",
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
-  "source_files": "EHHorizontalFixedWidthItemsView/Classes/**/*"
+  "source_files": "EHHorizontalFixedWidthItemsView/Classes/**/*",
+  "dependencies": {
+    "EHItemViewCommon": [
+      "~> 1.0.0"
+    ]
+  }
 }

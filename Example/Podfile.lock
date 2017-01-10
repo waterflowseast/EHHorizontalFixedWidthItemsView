@@ -1,16 +1,27 @@
 PODS:
-  - EHHorizontalFixedWidthItemsView (0.1.0)
+  - EHHorizontalFixedWidthItemsView (1.0.0):
+    - EHItemViewCommon (~> 1.0.0)
+  - EHItemViewCommon (1.0.0)
+  - Masonry (0.6.4)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
 
 DEPENDENCIES:
   - EHHorizontalFixedWidthItemsView (from `../`)
+  - Masonry (~> 0.6.4)
+  - YYCategories (~> 1.0.1)
 
 EXTERNAL SOURCES:
   EHHorizontalFixedWidthItemsView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EHHorizontalFixedWidthItemsView: b0ac7e16cf8ef333b40e790b90d9e26365e3f050
+  EHHorizontalFixedWidthItemsView: 249ddfa3675ade08863118f38cefc214d7c0f4a0
+  EHItemViewCommon: 75b801f64e4f5ac7bbd9972911501a4e3993b27d
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: ba411cf6da22592632fcb042971fb4354de601a9
+PODFILE CHECKSUM: 3da96e5e33e2166e1c4f335ffcacb895ee1731c9
 
 COCOAPODS: 1.0.0
