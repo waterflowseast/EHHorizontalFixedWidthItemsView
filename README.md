@@ -5,11 +5,47 @@
 [![License](https://img.shields.io/cocoapods/l/EHHorizontalFixedWidthItemsView.svg?style=flat)](http://cocoapods.org/pods/EHHorizontalFixedWidthItemsView)
 [![Platform](https://img.shields.io/cocoapods/p/EHHorizontalFixedWidthItemsView.svg?style=flat)](http://cocoapods.org/pods/EHHorizontalFixedWidthItemsView)
 
+## Summary
+
+EHHorizontalFixedWidthItemsView: a view which arranges same-size item views one by one horizontally.
+
+EHHorizontalFixedWidthItemsSeparatorView: EHHorizontalFixedWidthItemsView + separator lines.
+
+EHHorizontalFixedWidthItemsSelectionView: selection version of EHHorizontalFixedWidthItemsView, you can single-select or multiple-select.
+
+EHFixedWidthItemsSequentialSelectionView: sequentail selection version of EHHorizontalFixedWidthItemsView.
+
+EHRateView: image version of EHFixedWidthItemsSequentialSelectionView.
+
+EHFixedWidthItemsSingleAnimatedSelectionView: a view which arranges same-size item views one by one horizontally, when you select one item, it automatically unselect the previous selected one with animation.
+
+EHFixedWidthItemsSingleAnimatedSelectionSeparatorView: EHFixedWidthItemsSingleAnimatedSelectionView + separator lines.
+
+## Screenshots
+
+EHHorizontalFixedWidthItemsView & EHHorizontalFixedWidthItemsSeparatorView
+
+![](https://github.com/waterflowseast/EHHorizontalFixedWidthItemsView/raw/master/screenshots/1.png)
+
+EHHorizontalFixedWidthItemsSelectionView
+
+![](https://github.com/waterflowseast/EHHorizontalFixedWidthItemsView/raw/master/screenshots/2.png)
+
+EHFixedWidthItemsSequentialSelectionView & EHRateView
+
+![](https://github.com/waterflowseast/EHHorizontalFixedWidthItemsView/raw/master/screenshots/3.png)
+
+EHFixedWidthItemsSingleAnimatedSelectionView & EHFixedWidthItemsSingleAnimatedSelectionSeparatorView
+
+![](https://github.com/waterflowseast/EHHorizontalFixedWidthItemsView/raw/master/screenshots/4.png)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+iOS 7.0+
 
 ## Installation
 
