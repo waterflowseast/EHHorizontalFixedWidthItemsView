@@ -51,6 +51,8 @@ static NSTimeInterval const kAnimationDuration = 0.35;
         [self addToViewWithItems:items];
         _selectedIndex = 0;
         [self addTrackView];
+        
+        [self didTapView:[self itemViewAtIndex:_selectedIndex] toSelected:YES];
     }
     
     return self;
@@ -67,6 +69,8 @@ static NSTimeInterval const kAnimationDuration = 0.35;
         [self addToViewWithItems:items];
         _selectedIndex = 0;
         [self addTrackView];
+        
+        [self didTapView:[self itemViewAtIndex:_selectedIndex] toSelected:YES];
     }
     
     return self;
@@ -156,9 +160,11 @@ static NSTimeInterval const kAnimationDuration = 0.35;
     if (direction == EHHorizontalFixedWidthItemsTrackViewSlideDirectionNext) {
         translationX = [self translationXForTrackAtIndex:(self.selectedIndex + 1)];
         [self didTapView:[self itemViewAtIndex:(self.selectedIndex + 1)] animateToSelected:YES];
+        self.selectedIndex += 1;
     } else {
         translationX = [self translationXForTrackAtIndex:(self.selectedIndex - 1)];
         [self didTapView:[self itemViewAtIndex:(self.selectedIndex - 1)] animateToSelected:YES];
+        self.selectedIndex -= 1;
     }
     
     [UIView animateWithDuration:kAnimationDuration animations:^{
@@ -190,13 +196,13 @@ static NSTimeInterval const kAnimationDuration = 0.35;
     CGFloat minEffectiveX = width / 2.0f;
     CGFloat maxEffectiveX = [self.layout totalWidth] - width + width / 2.0f;
 
-    CGFloat x = [self.layout xForIndex:index];
+    CGFloat x = [self.layout xForIndex:index] + self.layout.itemSize.width / 2.0f;
     CGFloat offsetX = 0;
 
     if (x < minEffectiveX) {
-        offsetX = 0;
+        offsetX = minEffectiveX - width / 2.0f;
     } else if (x > maxEffectiveX) {
-        offsetX = [self.layout totalWidth] - width;
+        offsetX = maxEffectiveX - width / 2.0f;
     } else {
         offsetX = x - width / 2.0f;
     }
