@@ -5,6 +5,7 @@
 #import "EHFixedWidthItemsSingleAnimatedSelectionView.h"
 #import "EHHorizontalFixedWidthItemsSelectionView.h"
 #import "EHHorizontalFixedWidthItemsSeparatorView.h"
+#import "EHHorizontalFixedWidthItemsTrackView.h"
 #import "EHHorizontalFixedWidthItemsView.h"
 #import "EHHorizontalFixedWidthLayout+SeparatorPosition.h"
 #import "EHHorizontalFixedWidthLayout.h"

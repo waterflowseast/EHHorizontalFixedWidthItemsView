@@ -15,6 +15,7 @@
 - (void)didTapControl:(UIControl *)control inView:(UIView *)view;
 - (void)didTapToSelected:(BOOL)selected;
 - (void)didTapToAnimateToSelected:(BOOL)selected;
+- (void)didReactInPercentage:(CGFloat)percentage;
 
 @end
 

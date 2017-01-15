@@ -27,7 +27,7 @@
   "source_files": "EHHorizontalFixedWidthItemsView/Classes/**/*",
   "dependencies": {
     "EHItemViewCommon": [
-      "~> 1.0.0"
+      "~> 1.0.1"
     ]
   }
 }

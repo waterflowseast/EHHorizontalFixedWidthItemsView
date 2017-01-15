@@ -20,5 +20,5 @@ EHFixedWidthItemsSingleAnimatedSelectionSeparatorView: EHFixedWidthItemsSingleAn
   s.source           = { :git => 'https://github.com/waterflowseast/EHHorizontalFixedWidthItemsView.git', :tag => s.version.to_s }
   s.ios.deployment_target = '7.0'
   s.source_files = 'EHHorizontalFixedWidthItemsView/Classes/**/*'
-  s.dependency 'EHItemViewCommon', '~> 1.0.0'
+  s.dependency 'EHItemViewCommon', '~> 1.0.1'
 end

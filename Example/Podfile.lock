@@ -1,7 +1,7 @@
 PODS:
   - EHHorizontalFixedWidthItemsView (1.0.0):
-    - EHItemViewCommon (~> 1.0.0)
-  - EHItemViewCommon (1.0.0)
+    - EHItemViewCommon (~> 1.0.1)
+  - EHItemViewCommon (1.0.1)
   - Masonry (0.6.4)
   - YYCategories (1.0.4):
     - YYCategories/no-arc (= 1.0.4)
@@ -17,8 +17,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EHHorizontalFixedWidthItemsView: 249ddfa3675ade08863118f38cefc214d7c0f4a0
-  EHItemViewCommon: 75b801f64e4f5ac7bbd9972911501a4e3993b27d
+  EHHorizontalFixedWidthItemsView: 92e1b25467f6b342342c53957da0fa51e61d08de
+  EHItemViewCommon: 42fabf0466bc6f53355af931076ba2cda3e7cc5f
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
