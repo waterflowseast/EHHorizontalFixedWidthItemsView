@@ -1,5 +1,5 @@
 PODS:
-  - EHHorizontalFixedWidthItemsView (1.0.0):
+  - EHHorizontalFixedWidthItemsView (1.0.1):
     - EHItemViewCommon (~> 1.0.1)
   - EHItemViewCommon (1.0.1)
   - Masonry (0.6.4)
@@ -17,7 +17,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EHHorizontalFixedWidthItemsView: 92e1b25467f6b342342c53957da0fa51e61d08de
+  EHHorizontalFixedWidthItemsView: 4d0e9dad64df3d7e0960746e2a62c37ddd22c0d1
   EHItemViewCommon: 42fabf0466bc6f53355af931076ba2cda3e7cc5f
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
